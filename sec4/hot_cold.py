@@ -9,8 +9,9 @@
 # zaimportuj bibliotekę
 
 # zmienne:
-# - licznik szans
-# - bliskosc trafienia
+# liczba wylosowana przez komputer
+# licznik szans
+# bliskosc trafienia
 
 # pętla do 6 powtórzeń
 # - pobranie danych od uzytkownika
