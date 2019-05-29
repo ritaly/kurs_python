@@ -59,7 +59,7 @@ def check_card_type():
 
 number = input("Podaj nr karty: ")
 
-# czy numer jest bledny
+# czy numer jest bledny?
 len_of_number = len(number)
 
 if len_of_number not in [13, 15, 16]:

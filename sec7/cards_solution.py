@@ -1,16 +1,3 @@
-# Napisz program, który na podstawie numeru karty odpowie czy ma doczynienia z Visą, MasterCard, a może AmericanExpress.
-#
-# Co wiemy o tych numerach tych kart?
-# All Visa card numbers start with a 4.
-# New cards have 16 digits. Old cards have 13.
-
-# MasterCard numbers either start with the numbers 51 through 55
-# or with the numbers 2221 through 2720. All have 16 digits.
-
-# American Express card numbers start with 34 or 37 and have 15 digits.
-#
-
-
 def is_visa(number):
     if len_of_number not in [13, 16]:
         return False
@@ -42,6 +29,7 @@ def is_american_express(number):
         else:
             return False
 
+
 def save_to_file(card_type, number):
     save_file = card_type + '.txt'
     with open(save_file, 'a') as sf:
@@ -65,7 +53,7 @@ def check_card_type(number):
         print("nie znam twojej karty")
 
 
-# tutaj pobrać dane z pliku
+# pobrać dane z pliku
 filename = 'cards_list.txt'
 with open(filename, 'r') as fo:
     num_list = fo.readlines()
