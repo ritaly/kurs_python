@@ -66,7 +66,7 @@ def check_card_type(number):
 
 
 # tutaj pobrać dane z pliku
-filename = 'num_cards.txt'
+filename = 'cards_list.txt'
 with open(filename, 'r') as fo:
     num_list = fo.readlines()
 
