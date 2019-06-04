@@ -1,14 +1,14 @@
 # CODE:ME
 
-Repozytorium zawiera zadania z zajęć wraz z zadaniami do przećwiczenia w domu.
+Repozytorium zawiera zadania z zajęć, przykładowe rozwiązania. Materiały z lekcji.
 
 ## Spis treści
 
 1. Instalacja i szybkie wprowadzenie - `01` + `02`
 2. Zapoznanie z systemem kontroli wersji Git
-3. Typy i zmienne - `03`
-4. Instrukcje sterujące: if, for, while - `04`
-5. Podstawowe kolekcja
+3. Typy i zmienne - 
+4. Instrukcje sterujące: if, for, while - 
+5. Podstawowe kolekcje
 6. Funkcje
 7. Funkcje cd.
 8. Pliki
