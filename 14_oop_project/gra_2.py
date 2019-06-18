@@ -1,6 +1,7 @@
 class Card(object):
     """ Karta do gry. """
-    RANKS = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+    RANKS = ["A", "2", "3", "4", "5", "6", "7",
+             "8", "9", "10", "J", "Q", "K"]
     SUITS = ["c", "d", "h", "s"]
 
     def __init__(self, rank, suit):
@@ -34,3 +35,24 @@ class Hand(object):
         def give(self, card, other_hand):
             self.cards.remove(card)
             other_hand.add(card)
+
+import random
+
+class Deck(Hand):
+    """ Talia kart do gry. """
+    def populate(self):
+        for suit in Card.SUITS:
+            for rank in Card.RANKS:
+                self.add(Card(rank, suit))
+
+        def shuffle(self):
+            random.shuffle(self.cards)
+
+        def deal(self, hands, per_hand = 1):
+            for rounds in range(per_hand):
+                for hand in hands:
+                    if self.cards:
+                        top_card = self.cards[0]
+                        self.give(top_card, hand)
+                    else:
+                        print("Nie mogę dalej rozdawać. Zabrakło kart!")
