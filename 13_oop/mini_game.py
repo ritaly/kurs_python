@@ -10,7 +10,7 @@ class Alien(object):
     """ Obcy w grze strzelance. """
 
     def die(self):
-        print('Obcy z trudem łapie oddech, "To już koniec. Ale prawdziwie wielki koniec... \n',
+        print('Obcy z trudem łapie oddech, "To już koniec. ...yyuuhhh... umieram.... \n',
               'Larwy moje pomszczą mnie pewnego dnia... \n',
               'Żegnaj, okrutny Wszechświecie!"')
 
