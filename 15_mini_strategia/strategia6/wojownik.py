@@ -11,4 +11,4 @@ class Wojownik:
         print(f'{nazwa}: Przeszedłem {dystans}m')
         self._doswiadczenie += 0.02 * dystans
 
-print('Wojo')
+print('Base Class Wojownik')
