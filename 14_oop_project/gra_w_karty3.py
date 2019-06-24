@@ -25,12 +25,12 @@ class Unprintable_Card(Card):
 class Positionable_Card(Card):
     """ Karta, która może być odkryta lub zakryta. """
     def __init__(self, rank, suit, face_up = True):
-        super(Positionable_Card, self).__init__(rank, suit)
+        super().__init__(rank, suit)
         self.is_face_up = face_up
 
     def __str__(self):
         if self.is_face_up:
-            rep = super(Positionable_Card, self).__str__()
+            rep = super().__str__()
         else:
             rep = "XX"
         return rep

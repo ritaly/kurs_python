@@ -1,2 +1,0 @@
-class AnotherClass:
-    print('Another')
