@@ -14,5 +14,7 @@ class RectangleTestCase(unittest.TestCase):
         del self.a
         del self.b
 
+
+
 if __name__ == '__main__':
     unittest.main()
