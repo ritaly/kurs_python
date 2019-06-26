@@ -2,7 +2,7 @@ import unittest
 from student import Student
 
 
-class TestStudent(unttest.TestCase):
+class TestStudent(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
