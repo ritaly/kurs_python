@@ -25,7 +25,7 @@ def trapezoid(a, b,  h):
 
 def main():
     print(rectangle(4, 6))
-    print(trapezoid(4, 3, 6))
+    print(trapezoid(4, 3, 5))
 
 
 if __name__ == '__main__':

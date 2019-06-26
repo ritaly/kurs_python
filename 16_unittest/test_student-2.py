@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from student import Student
 
 
-class TestStudent(TestCase):
+class TestStudent(unittest.TestCase):
     
     def setUp(self):
         self.obj_anna = Student('anna', 'kowalska', 4.6, None)

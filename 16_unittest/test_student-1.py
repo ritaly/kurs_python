@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from student import Student
 
 
-class TestStudent(TestCase):
+class TestStudent(unittest.TestCase):
 
     def test_email(self):
         obj_anna = Student('ana', 'kowalska', 4.6, True)

@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from student import Student
 
 
-class TestStudent(TestCase):
+class TestStudent(unittest.TestCase):
     
     def setUp(self):
         print('setUp')
